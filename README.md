@@ -1,4 +1,4 @@
-📊 Ensaios de Teste de 5 Ciclos
+#📊 Ensaios de Teste de 5 Ciclos
 Este projeto é uma aplicação Streamlit para analisar dados de arquivos Excel. A aplicação permite carregar um arquivo Excel, selecionar uma aba específica e visualizar os dados em um gráfico interativo.
 
 Funcionalidades
