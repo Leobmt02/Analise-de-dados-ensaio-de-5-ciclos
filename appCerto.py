@@ -36,7 +36,7 @@ if arquivo:
 
         # Criar gráfico interativo
         st.subheader("📈 Gráfico de Dados")
-        fig, ax = plt.subplots(figsize=(6, 4))
+        fig, ax = plt.subplots(figsize=(4, 4))
         ax.plot(df[col_x], df[col_y], marker='o', linestyle='-', color='b', label=f'{col_x} x {col_y}')
 
         # Configuração do gráfico
