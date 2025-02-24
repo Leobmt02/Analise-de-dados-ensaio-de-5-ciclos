@@ -24,15 +24,15 @@ if arquivo:
         df = pd.read_excel(xls, sheet_name=aba_selecionada, skiprows=7)
 
         # Exibir as colunas encontradas
-        st.write("📌 **Colunas disponíveis:**", df.columns.tolist())
+        #st.write("📌 **Colunas disponíveis:**", df.columns.tolist())
 
         # Permitir ao usuário selecionar as colunas desejadas
-        col_x = st.selectbox("Selecione a coluna para o eixo X:", df.columns)
-        col_y = st.selectbox("Selecione a coluna para o eixo Y:", df.columns)
+        col_x = st.selectbox("Selecione a coluna para o eixo X:", [kN])
+        col_y = st.selectbox("Selecione a coluna para o eixo Y:", [mm])
 
         # Exibir as primeiras linhas do DataFrame
-        st.subheader("📋 Dados Carregados")
-        st.dataframe(df.head())
+        #st.subheader("📋 Dados Carregados")
+        #st.dataframe(df.head())
 
         # Criar gráfico interativo
         st.subheader("📈 Gráfico de Dados")
