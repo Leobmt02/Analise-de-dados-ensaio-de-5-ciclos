@@ -24,7 +24,7 @@ if arquivo:
         df = pd.read_excel(xls, sheet_name=aba_selecionada, skiprows=7)
 
         # Exibir as colunas encontradas
-        #st.write("📌 **Colunas disponíveis:**", df.columns.tolist())
+        st.write("📌 **Colunas disponíveis:**", df.columns.tolist())
 
         # Permitir ao usuário selecionar as colunas desejadas
         col_x = st.selectbox("Selecione a coluna para o eixo X:", [mm])
