@@ -27,8 +27,8 @@ if arquivo:
         #st.write("📌 **Colunas disponíveis:**", df.columns.tolist())
 
         # Permitir ao usuário selecionar as colunas desejadas
-        col_x = st.selectbox("Selecione a coluna para o eixo X:", [kN])
-        col_y = st.selectbox("Selecione a coluna para o eixo Y:", [mm])
+        col_x = st.selectbox("Selecione a coluna para o eixo X:", [mm])
+        col_y = st.selectbox("Selecione a coluna para o eixo Y:", [kN])
 
         # Exibir as primeiras linhas do DataFrame
         #st.subheader("📋 Dados Carregados")
