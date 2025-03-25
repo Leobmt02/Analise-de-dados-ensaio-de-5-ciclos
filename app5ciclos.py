@@ -15,7 +15,7 @@ if arquivo:
     try:
         # Verificar a extensão do arquivo
         if arquivo.name.endswith('.csv'):
-            df = pd.read_csv(arquivo, skiprows=2)
+            df = pd.read_csv(arquivo, skiprows=2, delimiter = ';')
         else:
             # Obtendo os nomes das planilhas
             xls = pd.ExcelFile(arquivo, engine='openpyxl')
