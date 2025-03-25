@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Configuração da página
-st.set_page_config(page_title="Analisador de Dados - Excel e CSV", layout="wide")
+st.set_page_config(page_title="Analisador de Dados - Excel e CSV", layout="centered")
 
 # Título da aplicação
 st.title("📊 Ensaios de Teste de 5 Ciclos")
